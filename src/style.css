@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eaeced;
+  font-family: 'Myriad Pro', Arial, sans-serif;
+}
+body a,
+body img,
+body span {
+  display: block;
+  border: 0;
+}
+body a {
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: none;
+}
+body a:focus {
+  outline: none;
+  border: none;
+}
+body table {
+  border: 0;
+}
+.wrap {
+  width: 600px;
+  border: 0;
+  padding-top: 5px;
+}
+.wrap .header {
+  border: 0;
+}
+.wrap .header .motto {
+  padding-left: 20px;
+}
+.wrap .header .motto span {
+  font-size: 25px;
+  line-height: 30px ;
+  font-weight: 200 ;
+  color: #252b33;
+}
+.wrap .header .date {
+  padding-left: 5%;
+  padding-top: 5px;
+}
+.wrap .header .date span {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 30px ;
+  font-weight: 400 ;
+  color: #7e8890;
+}
+.wrap .content-image,
+.wrap .content-block {
+  border: 0;
+  background: #ffffff;
+}
+.wrap .content-block .heading-text {
+  font-size: 25px;
+  line-height: 30px ;
+  font-weight: 200 ;
+  color: #252b33;
+}
+.wrap .content-block .additional-text {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 200;
+  color: #7e8890 ;
+}
+.wrap .content-block .button {
+  text-align: center;
+  background: #ff9124;
+  font-size: 25px;
+  line-height: 30px ;
+  font-weight: 200 ;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+.wrap .content-block .list-services {
+  padding-left: 22%;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 200;
+  color: #7e8890 ;
+}
+.wrap .footer {
+  border: 0;
+}
+.wrap .footer .social-tw,
+.wrap .footer .social-fb,
+.wrap .footer .social-g {
+  text-align: center;
+  font-size: 12px;
+  line-height: 30px ;
+  font-weight: 200 ;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.wrap .footer .social-tw {
+  background: #46a9e3;
+  padding: 10px 10px;
+}
+.wrap .footer .social-tw img {
+  padding: 4px 0;
+}
+.wrap .footer .social-fb {
+  background: #36549d;
+  padding: 10px 15px;
+}
+.wrap .footer .social-g {
+  background: #c92228;
+  padding: 10px 20px;
+}
+.wrap .footer-text span {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 30px ;
+  font-weight: 200 ;
+  color: #7e8890;
+}
+.wrap .footer-text .information,
+.wrap .footer-text .sign-out {
+  text-transform: none;
+}
